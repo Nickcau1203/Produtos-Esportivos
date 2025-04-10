@@ -1,5 +1,5 @@
-import { PrismaEsportes } from "@prisma/esportes";
+import { PrismaClient } from "@prisma/client";
 
-const prisma = new PrismaEsportes();
+const prisma = new PrismaClient();
 
 export default prisma;
